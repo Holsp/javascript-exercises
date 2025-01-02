@@ -12,7 +12,7 @@ write a function that takes a string to be encoded and a shift factor and then r
 caesar('A', 1) // simply shifts the letter by 1: returns 'B'
 ```
 
-the cipher should retain capitalization:
+the cipher should retain capitalization: 
 ```javascript
 caesar('Hey', 5) // returns 'Mjd'
 ```

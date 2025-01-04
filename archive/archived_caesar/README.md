@@ -27,6 +27,10 @@ the shift should wrap around the alphabet:
 caesar('Z', 1) // returns 'A'
 ```
 
+```javascript
+caesar('X', 1) // returns 'Y'
+```
+
 negative numbers should work as well:
 ```javascript
 caesar('Mjqqt, Btwqi!', -5) // returns 'Hello, World!'
